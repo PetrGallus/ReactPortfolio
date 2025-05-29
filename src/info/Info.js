@@ -29,8 +29,8 @@ of what each of the values mean.
 export const info = {
     firstName: "Petr",
     lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    initials: "#root", // the example uses first and last, but feel free to use three or more if you like.
+    position: "Red Teamer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -41,28 +41,18 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the CZE'
         },
         {
-            emoji: "💼",
-            text: "Systems Engineer at Google"
+            emoji: "👐",
+            text: "open-source security SW donator"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "shadownodeMX@pm.me"
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
         {
             link: "https://github.com",
             icon: "fa fa-github",
@@ -73,11 +63,7 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
