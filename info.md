@@ -31,6 +31,7 @@
 +------------------------------------------------------+
 |              Nasazení: GitHub Pages / Netlify        |
 | - Umožňuje web publikovat online                     |
+
 | - Zdarma pro studenty                                |
 +------------------------------------------------------+
 

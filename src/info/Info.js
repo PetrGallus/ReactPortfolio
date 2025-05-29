@@ -27,7 +27,7 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
+    firstName: "Petr",
     lastName: "Smith",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
@@ -112,14 +112,18 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            live: "https://moje-stranka1.cz", // změň na svůj odkaz
+            liveText: "Ukázka online",        // text tlačítka pro live demo
+            source: "https://github.com/moje-repo1", // změň na svůj odkaz
+            sourceText: "Zdrojový kód",       // text tlačítka pro zdroj
             image: mock1
         },
         {
             title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            live: "https://moje-stranka2.cz",
+            liveText: "Demo",
+            source: "https://github.com/moje-repo2",
+            sourceText: "Repozitář",
             image: mock2
         },
         {
