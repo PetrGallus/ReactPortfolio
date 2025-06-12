@@ -17,28 +17,18 @@ i {
 }
 
 .terminal {
+  background: none; // pozadí řešíme inline ve stylu komponenty
+  color: #ad1457;
+  font-family: 'Comic Sans MS', Comic Sans, cursive, sans-serif;
+
   p, li {
     margin: 1rem 0;
-    color: $white;
+    color: #ad1457;
   }
 
   a, a:visited {
-    animation: changeColors 3s infinite;
+    color: #f06292;
     font-weight: bold;
-  }
-}
-
-@keyframes changeColors {
-  0% {
-    color: #00a47f;
-  }
-  33.3% {
-    color: #1d91e3;
-  }
-  66.6% {
-    color: #d419fe;
-  }
-  100% {
-    color: #00a47f;
+    text-decoration: underline;
   }
 }
